@@ -36,7 +36,7 @@ export default class SignInContainer extends React.Component {
               );
        default:
         return(
-                <SignIn handleSignIn={this.props.handleSignIn} toggleView={this.props.toggleView} message="Default hit. Check switch in container component." />
+                <SignIn handleSignIn={this.props.handleSignIn} toggleView={this.props.toggleView} message="Switch default has been hit. Check switch function in container component." />
                )
      }
   };

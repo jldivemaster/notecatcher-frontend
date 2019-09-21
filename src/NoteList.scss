@@ -4,7 +4,7 @@ $cGray: #333;
 $cLightGray: rgba(#000, 0.1);
 
 .wrapper{
-  padding-left: 1rem;
+  padding-left: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -20,26 +20,36 @@ h2{
   text-align: center;
   font-style: italic;
   text-decoration: underline;
+  font-weight: 700;
+  text-shadow: 1px 1px #f8f2ec;
 }
 
 .new-note-container{
-  max-width: 1000px;
+  max-width: 1100px;
   display: grid;
-  margin-left: 10rem;
+  margin-left: 7.4rem;
 }
 
 .note-btn-container{
-    max-width: 80%;
-    padding-left: 20rem;
-    padding-right: 7rem;
-    padding-bottom: 1rem;
+    max-width: 90%;
+    // align-items: center;
+    padding-left: 18rem;
+    padding-right: 12rem;
+    // padding-bottom: 1rem;
     justify-content: space-around;
 }
 
 .new-btn{
-  opacity: 0.6;
+  opacity: 0.5;
   display: flex;
   align-self: flex-start;
+}
+
+.title-prompt{
+  font-size: 19px;
+  // font-style: italic;
+  margin-bottom: 0rem;
+  margin-right: 41rem;
 }
 
 .accordion-list{
@@ -49,7 +59,7 @@ h2{
   margin: 0;
   padding: 0;
   background-color: #fff;
-  max-width: 25rem;
+  max-width: 27rem;
   border-radius: 0.4rem;
   overflow: hidden;
   box-shadow:
@@ -67,6 +77,7 @@ h2{
   border-style: double;
   border-color: black;
   width: 1200px;
+  margin-right: 1rem;
 }
 
 .accordion-item{
@@ -104,13 +115,14 @@ h2{
   }
 
   &__title{
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin: 0;
     font-weight: 700;
+    text-shadow: 1px 1px #f8f2ec;
   }
 
   &__ref{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   &__icon{
@@ -164,7 +176,6 @@ h2{
   }
 
   &__delete-btn{
-    position: fixed;
-    align-self: right;
+
   }
 }

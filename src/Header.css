@@ -17,6 +17,9 @@
 
 .head-subtitle{
   font-style: italic;
+  font-size: 23px;
+  color: #f8f2ec;
+  text-shadow: 1.2px 1.2px #000000;
 }
 
 .credit{

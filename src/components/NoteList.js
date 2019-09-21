@@ -49,7 +49,10 @@ export default class NoteList extends React.Component {
         <NewNote mod={this.props.mod} onNewNote={this.handleNewNote} onToggle={this.toggleView}/>
     )} else {
       return(
-        <Button className='new-btn' variant='contained' onClick={this.toggleView}>Add A Note</Button>
+        <>
+          <p className='title-prompt'>Click on titles to open note contents</p>
+          <Button className='new-btn' variant='contained' onClick={this.toggleView}>Add A Note</Button>
+        </>
     )}
   };
 
@@ -62,7 +65,7 @@ export default class NoteList extends React.Component {
           {this.props.notes.map((note, key) => {
             return (
               <ul {...{ className: "accordian-list__item", key }}>
-              <ListItem >
+              <ListItem className='li-root' style={{ 'padding': '8px' }}>
                 <Note note={note} handleNoteEdit={this.props.handleNoteEdit} handleNoteDelete={this.handleNoteDelete}/>
                 <Fab aria-label="delete" size='small' id={note.id} style={{ 'opacity': 0.5 }} onClick={this.handleNoteDelete}>
                 <DeleteIcon className='delete-btn' label='Delete' />

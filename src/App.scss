@@ -1,12 +1,15 @@
 .App {
   height: 100%;
-  background-color: #452900;
+  background-color: #664109;
   background-image: url("https://www.transparenttextures.com/patterns/mocha-grunge.png");
    min-height: 150vh;
    font-size: calc(10px + 2vmin);
+   color: #000000;
    font-family: "Palatino", "Book Antiqua", serif;
   }
-
+// 7a581d
+// 5c3d00
+// 452900
 /* ====== Tab Bar Elements ======================== */
 .main {
 }
@@ -41,6 +44,7 @@
   list-style: none;
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
+  text-shadow: 1.2px 1.2px #f8f2ec;
 }
 
 .tab-list-active {

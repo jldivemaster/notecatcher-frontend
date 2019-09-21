@@ -65,7 +65,7 @@ class App extends React.Component {
     fetch(login_url, configObj).then(res => res.json())
     .then(data => {
         if(data.error) {
-            this.setState({ signInView: 'Sign In Fail', message: data.error })
+            this.setState({ signInView: 'Sign In Fail', message: (data.error) })
         } else {
             this.setState({
                   signedIn: true,
@@ -80,6 +80,7 @@ class App extends React.Component {
         console.log(error.message);;
     })
   };
+
 
   handleSignOut = () => {
     const configObj = {
