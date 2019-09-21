@@ -48,7 +48,7 @@ export default class UserProfile extends React.Component {
               <input type="text" size='10' className='input' name='firstname' value={this.state.firstname} onChange={this.handleChange('firstname')} />
             </ul>
             <ul id="lastname"> Last Name:
-              <input type='text' className='input' size='10' name='lastname' value={this.state.lastname} onChange={this.handleChange('lastname')} />
+              <input type='text' className='input' size='15' name='lastname' value={this.state.lastname} onChange={this.handleChange('lastname')} />
             </ul>
             <ul id="username"> User Name:
               <input size='10' type="text" className='input' name='username' value={this.state.username} onChange={this.handleChange('username')} />
