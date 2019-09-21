@@ -1,0 +1,31 @@
+.header{
+  text-align: center;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.head-title{
+  margin-top: 25px;
+  font-style: italic;
+  font-size: 75px;
+  color: #f8f2ec;
+  text-shadow: 3.5px 3.5px #000000;
+}
+
+.head-subtitle{
+  font-style: italic;
+}
+
+.credit{
+  font-style: italic;
+  text-align: left;
+  font-size: 0.8rem;
+  color: rgb(60, 60, 60);
+}
+
+.background{
+  width: 100;
+}

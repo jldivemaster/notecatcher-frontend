@@ -1,0 +1,55 @@
+.App {
+  height: 100%;
+  background-color: #452900;
+  background-image: url("https://www.transparenttextures.com/patterns/mocha-grunge.png");
+   min-height: 150vh;
+   font-size: calc(10px + 2vmin);
+   font-family: "Palatino", "Book Antiqua", serif;
+  }
+
+/* ====== Tab Bar Elements ======================== */
+.main {
+}
+
+.sign-in{
+}
+
+#main-title{
+}
+
+.tabs{
+  text-align: center;
+}
+
+.profile-tab {
+}
+
+.tab-list {
+  border-top: 2.5px solid #f2f2f2;
+  margin-top: 0;
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  max-width: 80%;
+  min-width: 15vh;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,207cca+25,1e50a0+48,1e50a0+48,1e50a0+50,1e50a0+70,7db9e8+100 */
+  background: rgb(30,87,153); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(32,124,202,1) 25%, rgba(30,80,160,1) 48%, rgba(30,80,160,1) 48%, rgba(30,80,160,1) 50%, rgba(30,80,160,1) 70%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 25%,rgba(30,80,160,1) 48%,rgba(30,80,160,1) 48%,rgba(30,80,160,1) 50%,rgba(30,80,160,1) 70%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 25%,rgba(30,80,160,1) 48%,rgba(30,80,160,1) 48%,rgba(30,80,160,1) 50%,rgba(30,80,160,1) 70%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border: solid #ccc;
+  border-width: 2px 2px 0px 2px;
+}

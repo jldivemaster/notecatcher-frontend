@@ -1,0 +1,52 @@
+#profile {
+  font-size: calc(15px + 2vmin);
+}
+
+.profile-list {
+  max-width: 100vh;
+  display: static;
+  flex-direction: column;
+}
+
+.edit-profile-list{
+  border-style: double;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+  max-width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-style: italic;
+}
+
+.profile-btn{
+  opacity: 0.6;
+}
+
+.edit-profile-btn{
+  opacity: 0.6;
+}
+
+.user-btn-container{
+  max-width: 80%;
+  padding-left: 10rem;
+  justify-content: space-around;
+}
+
+.input{
+  text-align: center;
+  align-self: left;
+  font-size: calc(12px + 2vmin);
+  display: inline;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: black;
+  opacity: 0.6;
+  padding: 5px;
+  background: none;
+  outline: none;
+  resize: horizontal;
+}
