@@ -8,10 +8,10 @@ import SignInContainer from './SignInContainer'
 import SearchResults from './SearchResults'
 
 // ***  Server URLS ==============
-const users_url = 'http://localhost:3000/users'
-const notes_url = 'http://localhost:3000/notes'
-const login_url = 'http://localhost:3000/login'
-const logout_url = 'http://localhost:3000/logout'
+const users_url = 'https://notecatcher-backend.herokuapp.com/users'
+const notes_url = 'https://notecatcher-backend.herokuapp.com/notes'
+const login_url = 'https://notecatcher-backend.herokuapp.com/login'
+const logout_url = 'https://notecatcher-backend.herokuapp.com/logout'
 
 class App extends React.Component {
 
